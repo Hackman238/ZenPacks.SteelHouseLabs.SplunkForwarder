@@ -1,7 +1,7 @@
 #! /usr/bin/env bash
 . $ZENHOME/bin/zenfunctions
 
-PRGHOME=$ZENHOME/ZenPacks/ZenPacks.SteelHouseLabs.SplunkForwarder-1.0.0-py2.7/ZenPacks/SteelHouseLabs/SplunkForwarder
+PRGHOME=$ZENHOME/ZenPacks/ZenPacks.SteelHouseLabs.SplunkForwarder-1.0.0-py2.7.egg/ZenPacks/SteelHouseLabs/SplunkForwarder
 PRGNAME=splunkforwarder.py
 CFGFILE=$CFGDIR/splunkforwarder.conf
 
