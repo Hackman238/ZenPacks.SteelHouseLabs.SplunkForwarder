@@ -162,6 +162,7 @@ class SEFTask(BaseTask):
 
     def writeToLog(self, data):
         self.dataLog.write(str(data) + '\n')
+        self.datalog.flush()
 
 
     def doTask(self):
